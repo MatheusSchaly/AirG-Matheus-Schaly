@@ -8,16 +8,10 @@
 pip install poetry
 ```
 
-2. Start poetry shell:
+2. Run the questions:
 
 ```console
-$ poetry shell
-```
-
-3. Run the questions:
-
-```console
-$ python -m src.question_1.py
+$ make question_1
 ```
 
 The expected output is:
