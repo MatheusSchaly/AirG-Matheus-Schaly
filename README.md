@@ -7,6 +7,8 @@ Install Poetry:
 pip install poetry
 ```
 
+The written answers can be found at **questions/answers.md**.
+
 # How to run the questions:
 
 ## Question 1:
