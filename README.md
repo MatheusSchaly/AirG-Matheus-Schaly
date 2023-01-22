@@ -63,30 +63,7 @@ All tests were successfully completed.
 A file containing 20 rows has been created at questions/question_2/data/20_rows.csv.
 ```
 
-Moreover, a file named **20_rows.csv** containing 20 rows of randomly generated data will be created in the directory **questions/question_2/data/** . File content example:
-```
-random_integer,random_string
-39280,WFGlhPNJngMibyrDrdHm
-37129,bFgDLsObCNzRHHwvwqMA
-88573,iVISBdjWScYcAfmBZFIf
-75435,kQLETbEgmMKLRObfXuZQ
-31491,MnuoMDdTHrgGzjVOktpq
-26279,RDEfTYFOFHnLSdQMrWGR
-80062,lRPrrMZpenlUXenwItNa
-56904,KSSmQtnZpxruoiKFasEC
-59128,ZiAJQpbWyjHnUoHZTjKV
-61843,IbYskfVqpgctIIcXJYyL
-22118,MHMfuEMdCJkDMsrgYCTO
-80714,HVIUuFbaCuSvMFyNWzEw
-76349,jdQFQkDJEbpEupgGqMGQ
-48486,bDEiRxMmxZatfaxNJfJm
-25897,JhwFqOmwOVNAmTtnLUVg
-15879,pagdkVUHsJlPTUDFFvtS
-17963,lfWhALBDHVvifurojpoI
-52915,sazdDebwmmgrahBZWoyo
-17752,zOUsjIndFEYqKHMoNgnE
-48874,DCdGaFEUxWqYrbFMtTAC
-```
+Moreover, a file named **20_rows.csv** containing 20 rows of randomly generated data will be created in the directory **questions/question_2/data/**.
 
 3. To run the script with your own parameters:
 ```console
@@ -104,20 +81,7 @@ All tests were successfully completed.
 A file containing 10 rows has been created at questions/question_2/data/10_rows.csv.
 ```
 
-Moreover, a file named **10_rows.csv** containing 10 rows of randomly generated data will be created in the directory **questions/question_2/data/**. File content example:
-```
-random_integer,random_string
-54539,nKsfgtFNwIJnfuWXhKwQ
-87035,NAgkrwelDRIqNdvdtRid
-49818,KXrCbYkzDdtbdKGweHbU
-71765,YXYxOYnytSYeGBoRNjqv
-83481,iGGsSqQTgHklfzfcZIbS
-70115,fOGAPrwXAOgADnnsMMhv
-15840,jzKbSxgfgxwIBJAjUoxw
-75390,nBCvmEbQXBdFZDgsEVSV
-99188,kdMHDoZbGmxenCtzerDA
-93166,fweHHTuudaCtPEAkxFYO
-```
+Moreover, a file named **10_rows.csv** containing 10 rows of randomly generated data will be created in the directory **questions/question_2/data/**.
 
 ## Question 3:
 
