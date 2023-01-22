@@ -157,7 +157,7 @@ quotechar = "
 As quotechar was given, we'll use use the default for delimiter: |
 ```
 
-Moreover, a file named **output.csv** containing the normalized CSV will be created in the directory [questions/question_3/data/](https://github.com/MatheusSchaly/AirG-Matheus-Schaly/tree/main/questions/question_3/data). Notice that the example given by AirG will, as expected, be correctly detected by the script.
+Moreover, a file named **output.csv** containing the normalized CSV will be created in the directory [questions/question_3/data/](https://github.com/MatheusSchaly/AirG-Matheus-Schaly/tree/main/questions/question_3/data).
 
 **4. To run the script while specifying the delimiter character and using the default quotechar (default quotechar="):**
 
@@ -181,7 +181,7 @@ quotechar = None
 As delimiter was given, we'll use use the default for quotechar: "
 ```
 
-Moreover, a file named **output.csv** containing the normalized CSV will be created in the directory [questions/question_3/data/](https://github.com/MatheusSchaly/AirG-Matheus-Schaly/tree/main/questions/question_3/data). Notice that the example given by AirG will, as expected, be correctly detected by the script.
+Moreover, a file named **output.csv** containing the normalized CSV will be created in the directory [questions/question_3/data/](https://github.com/MatheusSchaly/AirG-Matheus-Schaly/tree/main/questions/question_3/data).
 
 **5. To run the script with your own parameters:**
 ```console
@@ -202,7 +202,7 @@ delimiter = |
 quotechar = "
 ```
 
-Moreover, a file named **output.csv** containing the normalized CSV will be created in the directory [questions/question_3/data/](https://github.com/MatheusSchaly/AirG-Matheus-Schaly/tree/main/questions/question_3/data). Notice that the example given by AirG will, as expected, be correctly detected by the script.
+Moreover, a file named **output.csv** containing the normalized CSV will be created in the directory [questions/question_3/data/](https://github.com/MatheusSchaly/AirG-Matheus-Schaly/tree/main/questions/question_3/data).
 
 # How to apply formatting in the questions folder:
 
