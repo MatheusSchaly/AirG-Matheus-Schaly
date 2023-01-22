@@ -1,10 +1,10 @@
-The Information about how to run the questions' code and their expected output can be found in the [README.md](https://github.com/MatheusSchaly/AirG-Matheus-Schaly#readme) file.
+The information about how to run the questions' code and their expected output can be found in the [README.md](https://github.com/MatheusSchaly/AirG-Matheus-Schaly#readme) file.
 
 # Question 1:
 The script for question 1 can be found at [questions/question_1/main.py](https://github.com/MatheusSchaly/AirG-Matheus-Schaly/blob/main/questions/question_1/main.py). When you say "list the first 5 unique manufacturers", I'm assuming that I should display the first 5 manufacturers that appear in the API request results. I'm also assuming that manufacturers with the same name, but different capitalization, are actually the same.
 
 # Question 2:
-The script for question 2 can be found at [questions/question_2/src/main.py](https://github.com/MatheusSchaly/AirG-Matheus-Schaly/blob/main/questions/question_2/src/main.py).
+The script for question 2 can be found at [questions/question_2/](https://github.com/MatheusSchaly/AirG-Matheus-Schaly/blob/main/questions/question_2/).
 
 **Question:**
 
