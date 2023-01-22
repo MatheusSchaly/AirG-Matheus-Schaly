@@ -52,7 +52,7 @@ def list_unique_manufacturers(num_manufacturers=5):
         else:
             print("Error: Failed to retrieve data from API")
     else:
-        print("Invalid number of manufacturers provided.")
+        print("Invalid number of manufacturers provided, it must be greater than 0")
 
 
 if __name__ == "__main__":
