@@ -1,14 +1,23 @@
 """
-This script uses the requests library to connect to the
-https://swapi.dev/api/vehicles/ API, retrieve its information,
-parses the JSON data, and lists the 5 first unique manufacturers
+This script uses the requests library to connect to the https://swapi.dev/api/vehicles/ API,
+retrieve its information, parses the JSON data, and lists the 5 first unique manufacturers
 """
 
 import json
 import requests
 
 
-if __name__ == "__main__":
+def list_unique_manufacturers(num_manufacturers=5):
+    """
+    Retrieve and list the first 'n' unique manufacturers from the https://swapi.dev/api/vehicles/ API
+
+    Arguments:
+    num_manufacturers: Number of unique manufacturers to list
+
+    Returns:
+    None
+    """
+
     # Connects to the API using a GET request
     try:
         response = requests.get("https://swapi.dev/api/vehicles/", timeout=10)
@@ -31,8 +40,13 @@ if __name__ == "__main__":
                 unique_ordered_manufacturers.append(manufacturer)
                 unique_manufacturers.add(manufacturer_lower)
 
-        print(
-            f"The first 5 unique manufacturers are: {unique_ordered_manufacturers[:5]}"
-        )
+        print(f"Listing the first {num_manufacturers} unique manufacturers:")
+        for i, manufacturer in enumerate(unique_ordered_manufacturers[:num_manufacturers]):
+            print(f"{i+1}: {manufacturer}")
+
     else:
         print("Error: Failed to retrieve data from API")
+
+
+if __name__ == "__main__":
+    list_unique_manufacturers()
