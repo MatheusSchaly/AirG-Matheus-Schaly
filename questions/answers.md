@@ -1,10 +1,10 @@
-The Information about how to run the questions' code and their expected output can be found in the **README.md** file.
+The Information about how to run the questions' code and their expected output can be found in the [README.md](https://github.com/MatheusSchaly/AirG-Matheus-Schaly#readme) file.
 
 # Question 1:
-The script for question 1 can be found at **questions/question_1/main.py**.
+The script for question 1 can be found at [questions/question_1/main.py](https://github.com/MatheusSchaly/AirG-Matheus-Schaly/blob/main/questions/question_1/main.py).
 
 # Question 2:
-The script for question 2 can be found at **questions/question_2/src/main.py**.
+The script for question 2 can be found at [questions/question_2/src/main.py](https://github.com/MatheusSchaly/AirG-Matheus-Schaly/blob/main/questions/question_2/src/main.py).
 
 **Question:**
 
@@ -28,7 +28,7 @@ If this script had to run in a production environment, what tests would you incl
 
 **Answer:**
 
-The tests can be found at **questions/question_2/tests/tests.py**. I can run the tests one by one like I do in **questions/question_2/src/main.py**, or I could use a test runner like **unittest** to run all the test functions automatically. Additionally, I could include test cases to check the following:
+The tests can be found at [questions/question_2/tests/tests.py](https://github.com/MatheusSchaly/AirG-Matheus-Schaly/blob/main/questions/question_2/tests/tests.py). I can run the tests one by one like I do in [questions/question_2/src/main.py](https://github.com/MatheusSchaly/AirG-Matheus-Schaly/blob/main/questions/question_2/src/main.py), or I could use a unit testing framework like [unittest](https://docs.python.org/3/library/unittest.html) to run all the test functions automatically. Additionally, I could include test cases to check the following:
 
 1. Verify that the script can handle large number of rows.
 2. Verify that the script can handle edge cases and handle them gracefully.
@@ -54,6 +54,7 @@ To make the code easy to read and understand, I would:
 - Format the code using a tool to meet standards;
 - Put all the library imports at the beginning of the code;
 - Make sure the code is easy to read and follows good practices.
+Code standards may vary by company.
 
 Moreover, when submitting a pull request, I'd do the following:
 1. Pull from the main branch to ensure that my branch is up-to-date with the latest changes.

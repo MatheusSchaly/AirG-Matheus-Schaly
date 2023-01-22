@@ -76,13 +76,16 @@ def parse_arguments():
         """
     )
     parser.add_argument(
-        "--num_rows", type=int, default=default_num_rows, help=f"number of rows to generate, default={default_num_rows}"
+        "--num_rows",
+        type=int,
+        default=default_num_rows,
+        help=f"number of rows to generate, default={default_num_rows}",
     )
     parser.add_argument(
         "--csv_name",
         type=str,
         default="20_rows.csv",
-        help=f"CSV filename with the .csv extension, default={default_csv_name}",
+        help=f"CSV filename, default={default_csv_name}",
     )
     args = parser.parse_args()
 
