@@ -9,16 +9,16 @@ This README.md provides instructions on how to run the scripts created to answer
 pip install poetry
 ```
 
-**2.Install the project dependencies:**
+**2. Install the project dependencies:**
 ```console
-pip install poetry
+make install
 ```
 
 # How to run the questions:
 
 ## Question 1:
 
-To run question:
+To run the script:
 ```console
 $ make question_1
 ```
@@ -60,7 +60,7 @@ $ make question_2
 Expected output:
 ```
 All tests were successfully completed.
-A file containing 20 rows has been created at questions/question_2/data/20_rows.csv.
+A file containing 20 rows of randomly generated data has been created at questions/question_2/data/20_rows.csv.
 ```
 
 Moreover, a file named **20_rows.csv** containing 20 rows of randomly generated data will be created in the directory [questions/question_2/data/](https://github.com/MatheusSchaly/AirG-Matheus-Schaly/tree/main/questions/question_2/data).
@@ -78,7 +78,7 @@ $ make question_2 ARGS="--num_rows=10 --csv_name='10_rows.csv'"
 Expected output:
 ```
 All tests were successfully completed.
-A file containing 10 rows has been created at questions/question_2/data/10_rows.csv.
+A file containing 10 rows of randomly generated data has been created at questions/question_2/data/10_rows.csv.
 ```
 
 Moreover, a file named **10_rows.csv** containing 10 rows of randomly generated data will be created in the directory [questions/question_2/data/](https://github.com/MatheusSchaly/AirG-Matheus-Schaly/tree/main/questions/question_2/data).
@@ -135,7 +135,8 @@ Quotechar detected: "
 
 Moreover, a file named **output.csv** containing the normalized CSV will be created in the directory [questions/question_3/data/](https://github.com/MatheusSchaly/AirG-Matheus-Schaly/tree/main/questions/question_3/data). Notice that the example given by AirG cannot, as expected, be correctly detected by the script.
 
-**3. To run the script with defining the quotechar and using the default delimiter (default delimiter=|):**
+**3. To run the script while specifying the quote character and using the default delimiter (default delimiter=|):**
+
 ```console
 $ make question_3 ARGS="--input_file=<your_input_file> --output_file=<your_output_file> --quotechar=<your_quotechar>"
 ```
@@ -158,7 +159,8 @@ As quotechar was given, we'll use use the default for delimiter: |
 
 Moreover, a file named **output.csv** containing the normalized CSV will be created in the directory [questions/question_3/data/](https://github.com/MatheusSchaly/AirG-Matheus-Schaly/tree/main/questions/question_3/data). Notice that the example given by AirG will, as expected, be correctly detected by the script.
 
-**4. To run the script with defining the delimiter and using the default quotechar (default quotechar="):**
+**4. To run the script while specifying the delimiter character and using the default quotechar (default quotechar="):**
+
 ```console
 $ make question_3 ARGS="--input_file=<your_input_file> --output_file=<your_output_file> --delimiter=<your_delimiter>"
 ```

@@ -103,4 +103,4 @@ if __name__ == "__main__":
     generate_csv(output_file_path, num_of_rows)
     apply_tests(output_file_path, num_of_rows)
 
-    print(f"A file containing {num_of_rows} rows has been created at {output_file_path}.")
+    print(f"A file containing {num_of_rows} rows of randomly generated data has been created at {output_file_path}.")
