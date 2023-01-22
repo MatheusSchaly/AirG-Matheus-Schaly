@@ -6,40 +6,56 @@ generates a CSV file with randomly generated data is working as expected.
 import csv
 
 
-def test_column_headers(args):
+def test_column_headers(file_path):
     """
     Checks that the CSV file has the appropriate column titles.
+
+    Arguments:
+    file_path: CSV file path (str)
+
+    Returns:
+    None
     """
-    with open(
-        f"questions/question_2/data/{args.csv_name}", encoding="utf-8"
-    ) as csv_file:
+
+    with open(file_path, encoding="utf-8") as csv_file:
         reader = csv.reader(csv_file)
         headers = next(reader)
         assert headers == ["random_integer", "random_string"]
 
 
-def test_number_of_rows(args):
+def test_number_of_rows(file_path, num_rows):
     """
     Checks that the number of rows in the generated CSV
     file matches the number of rows specified in the command line argument.
+
+    Arguments:
+    num_rows: Number of rows to generate (int)
+    file_path: CSV file path (str)
+
+    Returns:
+    None
     """
-    with open(
-        f"questions/question_2/data/{args.csv_name}", encoding="utf-8"
-    ) as csv_file:
+
+    with open(file_path, encoding="utf-8") as csv_file:
         reader = csv.reader(csv_file)
         rows = list(reader)
-        assert len(rows) == args.num_rows + 1  # +1 to include the header
+        assert len(rows) == num_rows + 1  # +1 to include the header
 
 
-def test_data_integrity(args):
+def test_data_integrity(file_path):
     """
     Checks that the file has the correct number of columns,
     and that all values in the 'random_integer' column are integers,
     and all values in the 'random_string' column are strings.
+
+    Arguments:
+    file_path: CSV file path (str)
+
+    Returns:
+    None
     """
-    with open(
-        f"questions/question_2/data/{args.csv_name}", encoding="utf-8"
-    ) as csv_file:
+
+    with open(file_path, encoding="utf-8") as csv_file:
         reader = csv.reader(csv_file)
         next(reader)  # Skips the header
         for row in reader:
