@@ -204,7 +204,7 @@ quotechar = "
 
 Moreover, a file named **output.csv** containing the normalized CSV will be created in the directory [questions/question_3/data/](https://github.com/MatheusSchaly/AirG-Matheus-Schaly/tree/main/questions/question_3/data). Notice that the example given by AirG will, as expected, be correctly detected by the script.
 
-# How to apply formatting the questions folder:
+# How to apply formatting in the questions folder:
 
 1. To run both pylint and black:
 
