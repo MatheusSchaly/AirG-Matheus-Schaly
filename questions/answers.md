@@ -70,3 +70,6 @@ Moreover, when submitting a pull request, I'd do the following:
 9. Merge the branch into the main branch once the code has been reviewed and approved.
 
 Pull request steps may vary by company.
+
+# Question 3:
+The script for question 1 can be found at [questions/question_3/src/main.py](https://github.com/MatheusSchaly/AirG-Matheus-Schaly/blob/main/questions/question_3/src/main.py). When you say "the input delimiter to use ('|' should be the default) the quote character to use (" by default)", I'm assuming that the default delimiter only applies to the input file and the default quote character applies to both the input and output file.
