@@ -87,7 +87,7 @@ def normalize_csv():
 
     with open(input_file_path, "r", encoding="utf-8") as f_input:
         with open(output_file_path, "w", newline="", encoding="utf-8") as f_output:
-            input_csv = csv.reader(f_input, delimiter=delimiter)
+            input_csv = csv.reader(f_input, delimiter=delimiter, quotechar=quotechar)
             output_csv = csv.writer(f_output, delimiter=",", quotechar=quotechar, quoting=csv.QUOTE_MINIMAL)
             for row in input_csv:
                 output_csv.writerow(row)
